@@ -105,6 +105,7 @@
 			children = (
 				2E70644C20A8160800C1B8B5 /* AppDelegate */,
 				2E70645820A818AC00C1B8B5 /* Constants */,
+				2E70645D20A81D7900C1B8B5 /* CoreData */,
 				2E70644920A8139200C1B8B5 /* Modules */,
 				2E70644D20A8166600C1B8B5 /* Views */,
 				2E70644A20A8147100C1B8B5 /* Resources */,
@@ -136,7 +137,7 @@
 			children = (
 				2E70645520A8185200C1B8B5 /* Common */,
 				2E70644E20A8170E00C1B8B5 /* Freshman */,
-				2E70644F20A8176C00C1B8B5 /* Sophomore */,
+				2E70644F20A8176C00C1B8B5 /* College */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -146,7 +147,7 @@
 			children = (
 				2E70645720A8186800C1B8B5 /* Common */,
 				2E70645220A817F200C1B8B5 /* Freshman */,
-				2E70645320A817FB00C1B8B5 /* Sophomore */,
+				2E70645320A817FB00C1B8B5 /* College */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -164,7 +165,6 @@
 				2E70641820A8111700C1B8B5 /* AppDelegate.swift */,
 				2E70642220A8111700C1B8B5 /* Assets.xcassets */,
 				2E70642720A8111700C1B8B5 /* Info.plist */,
-				2E70641F20A8111700C1B8B5 /* MyUniversity.xcdatamodeld */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -174,7 +174,7 @@
 			children = (
 				2E70645620A8185800C1B8B5 /* Common */,
 				2E70645020A817DD00C1B8B5 /* Freshman */,
-				2E70645120A817E500C1B8B5 /* Sophomore */,
+				2E70645120A817E500C1B8B5 /* College */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,11 +186,11 @@
 			path = Freshman;
 			sourceTree = "<group>";
 		};
-		2E70644F20A8176C00C1B8B5 /* Sophomore */ = {
+		2E70644F20A8176C00C1B8B5 /* College */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Sophomore;
+			path = College;
 			sourceTree = "<group>";
 		};
 		2E70645020A817DD00C1B8B5 /* Freshman */ = {
@@ -200,11 +200,11 @@
 			path = Freshman;
 			sourceTree = "<group>";
 		};
-		2E70645120A817E500C1B8B5 /* Sophomore */ = {
+		2E70645120A817E500C1B8B5 /* College */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Sophomore;
+			path = College;
 			sourceTree = "<group>";
 		};
 		2E70645220A817F200C1B8B5 /* Freshman */ = {
@@ -214,11 +214,11 @@
 			path = Freshman;
 			sourceTree = "<group>";
 		};
-		2E70645320A817FB00C1B8B5 /* Sophomore */ = {
+		2E70645320A817FB00C1B8B5 /* College */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Sophomore;
+			path = College;
 			sourceTree = "<group>";
 		};
 		2E70645520A8185200C1B8B5 /* Common */ = {
@@ -252,6 +252,14 @@
 				2E70645920A818E200C1B8B5 /* Constant.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		2E70645D20A81D7900C1B8B5 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				2E70641F20A8111700C1B8B5 /* MyUniversity.xcdatamodeld */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
