@@ -106,7 +106,7 @@
 				2E70644C20A8160800C1B8B5 /* AppDelegate */,
 				2E70645820A818AC00C1B8B5 /* Constants */,
 				2E70645D20A81D7900C1B8B5 /* CoreData */,
-				2E70644920A8139200C1B8B5 /* Modules */,
+				2E70644920A8139200C1B8B5 /* Models */,
 				2E70644D20A8166600C1B8B5 /* Views */,
 				2E70644A20A8147100C1B8B5 /* Resources */,
 				2E70644B20A8157200C1B8B5 /* Network */,
@@ -132,14 +132,11 @@
 			path = MyUniversityUITests;
 			sourceTree = "<group>";
 		};
-		2E70644920A8139200C1B8B5 /* Modules */ = {
+		2E70644920A8139200C1B8B5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				2E70645520A8185200C1B8B5 /* Common */,
-				2E70644E20A8170E00C1B8B5 /* Freshman */,
-				2E70644F20A8176C00C1B8B5 /* College */,
 			);
-			path = Modules;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		2E70644A20A8147100C1B8B5 /* Resources */ = {
@@ -179,20 +176,6 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		2E70644E20A8170E00C1B8B5 /* Freshman */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Freshman;
-			sourceTree = "<group>";
-		};
-		2E70644F20A8176C00C1B8B5 /* College */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = College;
-			sourceTree = "<group>";
-		};
 		2E70645020A817DD00C1B8B5 /* Freshman */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,13 +202,6 @@
 			children = (
 			);
 			path = College;
-			sourceTree = "<group>";
-		};
-		2E70645520A8185200C1B8B5 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Common;
 			sourceTree = "<group>";
 		};
 		2E70645620A8185800C1B8B5 /* Common */ = {
