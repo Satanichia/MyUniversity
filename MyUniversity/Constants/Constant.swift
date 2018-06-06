@@ -6,17 +6,20 @@
 //  Copyright © 2018年 Jxaummd. All rights reserved.
 //
 
-/* 网络接口地址 返回格式JSON*/
+/* 网络接口地址*/
 //根位置地址
 let URL_HOME = "http://jxaummd.com"
 
 /* 新生专区 */
 
+/* 程序启动 */
 //启动页 e.g. http://jxaummd.com/myUniversity/entrant/homepage/startpage?id=1
-let URL_LAUNCH_PAGE = "\(URL_HOME)/myUniversity/entrant/homepage/startpage"
+let URL_LAUNCH_IMAGE = "\(URL_HOME)/myUniversity/entrant/homepage/startpage"
 
 //更新引导页 e.g. http://jxaummd.com/myUniversity/entrant/homepage/bootpage?id=1
-let URL_UPDATE_PAGE = "\(URL_HOME)/myUniversity/entrant/homepage/bootpage"
+let URL_LAUNCH_UPDATE = "\(URL_HOME)/myUniversity/entrant/homepage/bootpage"
+
+//登陆接口 e.g. http://jxaummd.com/myUniversity/entrant/login?phoneNumber=12300000000&password=ABCDEFGH
 
 //首页Banner e.g. http://jxaummd.com/myUniversity/entrant/homepage/homepage_banner?id=1
 let URL_ENTRANT_HOME_BANNER = "\(URL_HOME)/myUniversity/entrant/homepage/homepage_banner"
@@ -24,8 +27,6 @@ let URL_ENTRANT_HOME_BANNER = "\(URL_HOME)/myUniversity/entrant/homepage/homepag
 //首页推送 e.g. http://jxaummd.com/myUniversity/entrant/homepage/homepage_propelling?offSet=1&pageSize=10
 let URL_ENTRANT_HOME_PUSH = "\(URL_HOME)/myUniversity/entrant/homepage/homepage_propelling"
 
-//首页文章 增加浏览量 e.g. http://jxaummd.com/myUniversity/entrant/homepage/addhomepagepropellingview?propelling_id=1
+//首页文章增加浏览(no respond) e.g. http://jxaummd.com/myUniversity/entrant/homepage/addhomepagepropellingview?propelling_id=1
 let URL_ENTRANT_HOME_PUSH_VCNT_ADD = "\(URL_HOME)/myUniversity/entrant/homepage/addhomepagepropellingview"
 
-//首页文章 减少浏览量 e.g. http://jxaummd.com/myUniversity/entrant/homepage/deletehomepagepropellingview?propelling_id=1
-let URL_ENTARNT_HOME_PUSH_VCNT_REDUCE = "\(URL_HOME)/myUniversity/entrant/homepage/deletehomepagepropellingview"
