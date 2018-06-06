@@ -108,6 +108,7 @@
 				2E70645D20A81D7900C1B8B5 /* CoreData */,
 				2E70644920A8139200C1B8B5 /* Models */,
 				2E70644D20A8166600C1B8B5 /* Views */,
+				2EF02C1E20C7FEF700177083 /* Controllers */,
 				2E70644A20A8147100C1B8B5 /* Resources */,
 				2E70644B20A8157200C1B8B5 /* Network */,
 			);
@@ -143,7 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				2E70645720A8186800C1B8B5 /* Common */,
-				2E70645220A817F200C1B8B5 /* Freshman */,
+				2E70645220A817F200C1B8B5 /* Entrant */,
 				2E70645320A817FB00C1B8B5 /* College */,
 			);
 			path = Resources;
@@ -170,17 +171,17 @@
 			isa = PBXGroup;
 			children = (
 				2E70645620A8185800C1B8B5 /* Common */,
-				2E70645020A817DD00C1B8B5 /* Freshman */,
+				2E70645020A817DD00C1B8B5 /* Entrant */,
 				2E70645120A817E500C1B8B5 /* College */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		2E70645020A817DD00C1B8B5 /* Freshman */ = {
+		2E70645020A817DD00C1B8B5 /* Entrant */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Freshman;
+			path = Entrant;
 			sourceTree = "<group>";
 		};
 		2E70645120A817E500C1B8B5 /* College */ = {
@@ -190,11 +191,11 @@
 			path = College;
 			sourceTree = "<group>";
 		};
-		2E70645220A817F200C1B8B5 /* Freshman */ = {
+		2E70645220A817F200C1B8B5 /* Entrant */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Freshman;
+			path = Entrant;
 			sourceTree = "<group>";
 		};
 		2E70645320A817FB00C1B8B5 /* College */ = {
@@ -236,6 +237,13 @@
 				2E70641F20A8111700C1B8B5 /* MyUniversity.xcdatamodeld */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		2EF02C1E20C7FEF700177083 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
